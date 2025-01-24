@@ -1,0 +1,129 @@
+*{
+   
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+    background-color:rgb(255, 166, 77);
+    border-radius: 10px;
+    box-shadow: 4px 8px 10px 10px rgb(10, 10, 9);
+}
+body{
+     background-color:rgb(71, 63, 63);
+     overflow-x: hidden;
+     font-family: 'Poppins', sans-serif;
+}
+.title{
+    text-align: center;
+    font-size: 7vh;
+    text-shadow: 4px 4px 7px rgb(255, 128, 0);
+   
+}
+
+.header{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    box-shadow: 1px 2px 4px 3px rgb(255, 128, 0);
+    width: 300px;
+    height: 340px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+#caption{
+    text-align: center;
+    font-size: 1.2rem;
+    color: brown;
+    padding: 0 2% 0 2%;
+    font-weight: 600;text-shadow: none;
+  
+}
+#tribute-info{
+    
+    text-align: center;
+    padding:  0 2% 0 2%;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    color: #3d2f2f;
+    font-weight: 550;
+    
+}
+.footer{
+    text-align: end;
+    color: #3d2f2f;
+    color: brown;  
+}
+@media screen and (max-width:600px) {
+    .container{
+        width: 95%;   
+    }
+    img{
+        width: 200px;
+        height: 240px;
+    }
+    .title{
+        font-size: 4vh;
+    }
+    #caption{
+        font-size: 0.7rem; 
+    }
+    .header{
+        flex-direction:column;
+    }
+    #tribute-info{
+        font-size: 0.7rem;
+        line-height: 1.1rem;
+    }
+    .footer{
+       font-size: 10px;
+    }
+    
+}
+@media screen and (min-width:600px) and (max-width:768px) {
+    .container{
+        width: 95%;   
+    }
+    .title{
+        font-size: 5vh;
+    }
+    #tribute-info{
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+    img{
+        width: 250px;
+        height: 290px;
+      
+    }
+    #caption{
+        font-size: 0.8rem; 
+    }
+    .footer{
+        font-size: 12px;
+     }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    .container{
+        width: 95%;   
+    }
+    .title{
+        font-size: 6vh;
+    }
+    #tribute-info{
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+    #caption{
+        font-size: 0.9rem; 
+    }
+    .footer{
+        font-size: 15px;
+     }
+}
